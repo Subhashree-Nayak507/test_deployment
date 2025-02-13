@@ -8,7 +8,7 @@ const app= express();
 
 app.use(
     cors({
-      origin: "https://t-seven-zeta.vercel.app/",
+      origin: ["https://t-seven-zeta.vercel.app", "https://t-seven-zeta.vercel.app/"],
       methods: ["GET", "POST", "DELETE", "PUT"],
       allowedHeaders: [
         "Content-Type",
