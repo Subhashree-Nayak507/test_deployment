@@ -11,7 +11,7 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.get('http://localhost:3000');
+      const response = await axios.get('test-iota-wheat-97.vercel.app');
       setData(response.data);
     } catch (err) {
       setError('Error fetching data');
